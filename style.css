@@ -431,3 +431,101 @@ footer h3{
 
 }
 
+@media only screen and (min-width: 320px) and (max-width: 576px){
+    .top-text{
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .text-section h1{
+        font-size: 36px;
+    }
+    .text-section .text{
+        font-size: 16px;
+        font-weight: 200;
+        line-height: 24px;
+    }
+    header{
+        padding-bottom: 50px;
+    }
+    .featured-header{
+        font-size: 36px;
+    }
+    .featured-section p{
+        font-size: 14px;
+    }
+    .article-header{
+        font-size: 36px;
+        margin-bottom: 35px;
+        text-align: left !important;
+        padding-left: 15px;
+    }
+    .card-title{
+        font-size: 22px !important;
+    }
+    .card-text {
+        font-size: 13px;
+    }
+    .card-btn {
+        background: white;
+        border: 2px solid #E76F51;
+        padding: 7px 20px;
+        color: #E76F51;
+        transition: background 0.3s ease 0s, color o.3s ease 0s;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .active-btn {
+        background: #E76F51;
+        color: white;
+    }
+    .clients-section h1 {
+        font-size: 36px;
+        margin-bottom: 40px;
+    }
+    .faq-section h1 {
+        font-size: 36px;
+        margin-bottom: 40px;
+    }
+    .accordion-button {
+        font-size: 18px;
+    }
+    .accordion-text {
+        font-size: 13px !important;
+    }
+    .image-gallery h1 {
+        font-size: 36px;
+        margin-bottom: 50px;
+    }
+    .contact-section{
+        padding: 50px 0 !important;
+    }
+    .image-gallery {
+        padding: 10px 0 40px 0;
+    }
+    .faq-section {
+        padding: 50px 0;
+    }
+    .contact-section h1 {
+        font-size: 36px;
+    }
+    .form-contact{
+        width: 75% !important;
+    }
+    .banner-btn {
+        padding: 7px 26px !important;
+        font-size: 14px;
+    }
+    footer a {
+        font-size: 15px;
+    }
+    footer {
+        padding: 55px 0 10px 0;
+    }
+    .faq-section {
+        padding: 50px 0;
+    }    
+    .article-section {
+        padding: 50px 0;
+    }
+
+}
